@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F18FCD7226EA82F7009A8A79 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FCD7126EA82F7009A8A79 /* TabBarViewController.swift */; };
+		F18FCD7526EA8A1D009A8A79 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18FCD7426EA8A1D009A8A79 /* DataManager.swift */; };
 		F19344BB26E7FA7800D3A86F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19344BA26E7FA7800D3A86F /* AppDelegate.swift */; };
 		F19344BD26E7FA7800D3A86F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19344BC26E7FA7800D3A86F /* SceneDelegate.swift */; };
 		F19344C226E7FA7800D3A86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19344C026E7FA7800D3A86F /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F18FCD7126EA82F7009A8A79 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F18FCD7426EA8A1D009A8A79 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		F19344B726E7FA7800D3A86F /* 7_Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7_Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19344BA26E7FA7800D3A86F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F19344BC26E7FA7800D3A86F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F18FCD7326EA8638009A8A79 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F18FCD7426EA8A1D009A8A79 /* DataManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F19344AE26E7FA7800D3A86F = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 				F19344D326E8091D00D3A86F /* Models */,
 				F19344D226E8090A00D3A86F /* ViewControllers */,
 				F19344CF26E808D200D3A86F /* Storyboards */,
+				F18FCD7326EA8638009A8A79 /* Services */,
 				F19344D126E808F800D3A86F /* Resources */,
 				F19344CE26E808C200D3A86F /* App */,
 			);
@@ -178,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19344BB26E7FA7800D3A86F /* AppDelegate.swift in Sources */,
+				F18FCD7526EA8A1D009A8A79 /* DataManager.swift in Sources */,
 				F18FCD7226EA82F7009A8A79 /* TabBarViewController.swift in Sources */,
 				F19344BD26E7FA7800D3A86F /* SceneDelegate.swift in Sources */,
 			);
